@@ -278,15 +278,52 @@
                         </div>
 
                         <!-- Primary Navigation
-                        ============================================= -->
+                            ============================================= -->
                         <nav class="primary-menu">
 
                             <ul class="menu-container">
                                 @foreach ($menus as $menu)
                                     <li class="menu-item">
-                                        <a class="menu-link" href="/">
+                                        <a class="menu-link" href="{{ $menu->url_redirect }}">
                                             <div>{{ $menu->titulo }}</div>
                                         </a>
+                                        @if (sizeof($menu->getHijos) != 0)
+                                            <ul class="sub-menu-container">
+                                                @foreach ($menu->getHijos as $sub_menu)
+                                                    <li class="menu-item">
+                                                        <a class="menu-link" href="{{ $sub_menu->url_redirect }}">
+                                                            <div>{{ $sub_menu->titulo }}</div>
+                                                        </a>
+                                                        @if (sizeof($sub_menu->getHijos) != 0)
+                                                            <ul class="sub-menu-container">
+                                                                @foreach ($sub_menu->getHijos as $sub_menu)
+                                                                    <li class="menu-item">
+                                                                        <a class="menu-link"
+                                                                            href="{{ $sub_menu->url_redirect }}">
+                                                                            <div>{{ $sub_menu->titulo }}</div>
+                                                                        </a>
+                                                                        @if (sizeof($sub_menu->getHijos) != 0)
+                                                                            <ul class="sub-menu-container">
+                                                                                @foreach ($sub_menu->getHijos as $sub_menu)
+                                                                                    <li class="menu-item">
+                                                                                        <a class="menu-link"
+                                                                                            href="{{ $sub_menu->url_redirect }}">
+                                                                                            <div>
+                                                                                                {{ $sub_menu->titulo }}
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </li>
+                                                                                @endforeach
+                                                                            </ul>
+                                                                        @endif
+                                                                    </li>
+                                                                @endforeach
+                                                            </ul>
+                                                        @endif
+                                                    </li>
+                                                @endforeach
+                                            </ul>
+                                        @endif
                                     </li>
                                 @endforeach
                             </ul>
@@ -319,8 +356,7 @@
                                         Elements &amp; simply put them on our Canvas.</p>
                                 </div>
                             </div>
-                            <div class="swiper-slide-bg"
-                                style="background-image: url('images/slider/swiper/1.jpg');">
+                            <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/1.jpg');">
                             </div>
                         </div>
                         <div class="swiper-slide dark">
@@ -507,8 +543,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="200">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="200">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-eye"></i></a>
                                     </div>
@@ -521,8 +556,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="400">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="400">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-star2"></i></a>
                                     </div>
@@ -535,8 +569,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="600">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="600">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-video"></i></a>
                                     </div>
@@ -549,8 +582,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="800">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="800">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-params"></i></a>
                                     </div>
@@ -563,8 +595,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="1000">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="1000">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-fire"></i></a>
                                     </div>
@@ -577,8 +608,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="1200">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="1200">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-bulb"></i></a>
                                     </div>
@@ -591,8 +621,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="1400">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="1400">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-heart2"></i></a>
                                     </div>
@@ -605,8 +634,7 @@
                             </div>
 
                             <div class="col-sm-6 col-lg-4">
-                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn"
-                                    data-delay="1600">
+                                <div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="1600">
                                     <div class="fbox-icon">
                                         <a href="#"><i class="icon-note"></i></a>
                                     </div>
@@ -757,8 +785,7 @@
                                             class="overlay-trigger-icon bg-light text-dark"
                                             data-hover-animate="fadeInDownSmall"
                                             data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="image" title="Image"><i
-                                                class="icon-line-plus"></i></a>
+                                            data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
                                         <a href="portfolio-single.html"
                                             class="overlay-trigger-icon bg-light text-dark"
                                             data-hover-animate="fadeInDownSmall"
@@ -842,8 +869,7 @@
                                             class="overlay-trigger-icon bg-light text-dark"
                                             data-hover-animate="fadeInDownSmall"
                                             data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"
-                                            data-lightbox="image" title="Image"><i
-                                                class="icon-line-plus"></i></a>
+                                            data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
                                         <a href="portfolio-single.html"
                                             class="overlay-trigger-icon bg-light text-dark"
                                             data-hover-animate="fadeInDownSmall"
@@ -977,9 +1003,9 @@
                 <div class="container clearfix">
 
                     <div id="oc-clients" class="owl-carousel owl-carousel-full image-carousel carousel-widget"
-                        data-margin="30" data-loop="true" data-nav="false" data-autoplay="5000"
-                        data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
-                        data-items-lg="5" data-items-xl="6" style="padding: 20px 0;">
+                        data-margin="30" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false"
+                        data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6"
+                        style="padding: 20px 0;">
 
                         <div class="oc-item"><a href="http://logofury.com/"><img src="images/clients/1.png"
                                     alt="Clients"></a></div>
@@ -1033,8 +1059,7 @@
 
                                     <div class="widget clearfix">
 
-                                        <img src="images/footer-widget-logo.png" alt="Image"
-                                            class="footer-logo">
+                                        <img src="images/footer-widget-logo.png" alt="Image" class="footer-logo">
 
                                         <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp;
                                             <strong>Flexible</strong> Design Standards.
@@ -1156,8 +1181,8 @@
 
                                             <div class="col-lg-6 bottommargin-sm">
                                                 <div class="counter counter-small"><span data-from="100"
-                                                        data-to="18465" data-refresh-interval="50"
-                                                        data-speed="2000" data-comma="true"></span></div>
+                                                        data-to="18465" data-refresh-interval="50" data-speed="2000"
+                                                        data-comma="true"></span></div>
                                                 <h5 class="mb-0">Clients</h5>
                                             </div>
                                         </div>

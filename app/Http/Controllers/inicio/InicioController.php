@@ -10,7 +10,8 @@ class InicioController extends Controller
 {
     public function index()
     {
-        $menus = Menu::all();
+        $menus = Menu::where('padre_id',1)->orWhere('padre_id', null)->get();
+
         return view('welcome', compact('menus'));
     }
 }
