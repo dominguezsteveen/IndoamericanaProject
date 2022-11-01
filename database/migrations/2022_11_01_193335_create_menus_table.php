@@ -17,6 +17,7 @@ return new class extends Migration
             $table->unsignedBigInteger('id')->autoIncrement();
             $table->string('titulo');
             $table->unsignedBigInteger('padre_id')->nullable();
+            $table->boolean('show')->default(true);
             $table->timestamps();
 
             $table->foreign('padre_id')->references('id')->on('menus');
