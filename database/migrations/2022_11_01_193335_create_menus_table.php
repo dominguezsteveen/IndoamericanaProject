@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('menus', function (Blueprint $table) {
             $table->unsignedBigInteger('id')->autoIncrement();
             $table->string('titulo');
+            $table->string('url_redirect')->default('/');
             $table->unsignedBigInteger('padre_id')->nullable();
             $table->boolean('show')->default(true);
             $table->timestamps();
