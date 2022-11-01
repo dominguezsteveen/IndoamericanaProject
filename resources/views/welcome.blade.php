@@ -169,18 +169,18 @@
         ============================================= -->
         <header id="header" class="header-size-sm dark">
             <div class="container py-3">
-                <div class="header-row flex-column flex-lg-row justify-content-center justify-content-lg-start">
+                <div class="header-row flex-column flex-lg-row justify-content-center">
 
                     <!-- Logo
                     ============================================= -->
-                    <div id="logo" class="me-0 me-lg-auto">
+                    <div id="logo" class="w-full">
                         <a href="/" class="standard-logo" data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
                                 src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img
-                                src="images/logo@2x.png" alt="Canvas Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
+                                src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
                     </div><!-- #logo end -->
 
-                    <div class="header-misc mb-4 mb-lg-0 order-lg-last">
+                    {{-- <div class="header-misc mb-4 mb-lg-0 order-lg-last">
 
                         <ul class="header-extras me-0 me-sm-4">
                             <li>
@@ -243,7 +243,7 @@
                             </div>
                         </div><!-- #top-cart end -->
 
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
