@@ -174,7 +174,7 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo" class="me-0 me-lg-auto">
-                        <a href="/" class="standard-logo" data-dark-logo="images/trainer-y-indo-1.png"><img
+                        <a href="/" class="standard-logo" data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
                                 src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
                         <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img
                                 src="images/logo@2x.png" alt="Canvas Logo"></a>
