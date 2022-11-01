@@ -174,9 +174,11 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo" class="w-full">
-                        <a href="/" class="standard-logo" data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
+                        <a href="/" class="standard-logo"
+                            data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
                                 src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
-                        <a href="/" class="retina-logo" data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
+                        <a href="/" class="retina-logo"
+                            data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
                                 src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
                     </div><!-- #logo end -->
 
@@ -281,255 +283,9 @@
 
                             <ul class="menu-container">
                                 <li class="menu-item">
-                                    <a class="menu-link" href="index.html">
+                                    <a class="menu-link" href="/">
                                         <div>Inicio</div>
                                     </a>
-                                    <ul class="sub-menu-container">
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="intro.html#section-niche">
-                                                <div>Niche Demos</div>
-                                            </a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="intro.html#section-onepage">
-                                                <div>One-Page Demos</div>
-                                            </a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-corporate.html">
-                                                <div>Home - Corporate</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-corporate.html">
-                                                        <div>Corporate - Layout 1</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-corporate-2.html">
-                                                        <div>Corporate - Layout 2</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-corporate-3.html">
-                                                        <div>Corporate - Layout 3</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-corporate-4.html">
-                                                        <div>Corporate - Layout 4</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-portfolio.html">
-                                                <div>Home - Portfolio</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-portfolio.html">
-                                                        <div>Portfolio - Layout 1</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-portfolio-2.html">
-                                                        <div>Portfolio - Layout 2</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-portfolio-3.html">
-                                                        <div>Portfolio - Masonry</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-portfolio-4.html">
-                                                        <div>Portfolio - AJAX</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-blog.html">
-                                                <div>Home - Blog</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-blog.html">
-                                                        <div>Blog - Layout 1</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-blog-2.html">
-                                                        <div>Blog - Layout 2</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-blog-3.html">
-                                                        <div>Blog - Layout 3</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-shop.html">
-                                                <div>Home - Shop</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-shop.html">
-                                                        <div>Shop - Layout 1</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-shop-2.html">
-                                                        <div>Shop - Layout 2</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-magazine.html">
-                                                <div>Home - Magazine</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-magazine.html">
-                                                        <div>Magazine - Layout 1</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-magazine-2.html">
-                                                        <div>Magazine - Layout 2</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-magazine-3.html">
-                                                        <div>Magazine - Layout 3</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="landing.html">
-                                                <div>Home - Landing Page</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="landing.html">
-                                                        <div>Landing Page - Layout 1</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="landing-2.html">
-                                                        <div>Landing Page - Layout 2</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="landing-3.html">
-                                                        <div>Landing Page - Layout 3</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="landing-4.html">
-                                                        <div>Landing Page - Layout 4</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="landing-5.html">
-                                                        <div>Landing Page - Layout 5</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-fullscreen-image.html">
-                                                <div>Home - Full Screen</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-fullscreen-image.html">
-                                                        <div>Full Screen - Image</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-fullscreen-slider.html">
-                                                        <div>Full Screen - Slider</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-fullscreen-video.html">
-                                                        <div>Full Screen - Video</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="index-onepage.html">
-                                                <div>Home - One Page</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-onepage.html">
-                                                        <div>One Page - Default</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-onepage-2.html">
-                                                        <div>One Page - Submenu</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="index-onepage-3.html">
-                                                        <div>One Page - Dots Style</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item mega-menu mega-menu-small">
-                                            <a class="menu-link" href="#">
-                                                <div>Extras</div>
-                                            </a>
-                                            <div class="mega-menu-content">
-                                                <div class="row mx-0">
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="index-wedding.html">
-                                                                <div>Wedding</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="index-restaurant.html">
-                                                                <div>Restaurant</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="index-events.html">
-                                                                <div>Events</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="index-parallax.html">
-                                                                <div>Parallax</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="index-app-showcase.html">
-                                                                <div>App Showcase</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="index-boxed.html">
-                                                                <div>Boxed Layout</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="menu-item">
                                     <a class="menu-link" href="#">
@@ -538,647 +294,66 @@
                                     <ul class="sub-menu-container">
                                         <li class="menu-item">
                                             <a class="menu-link" href="#">
-                                                <div><i class="icon-stack"></i>Sliders</div>
+                                                <div><i class="icon-plane"></i>Aviación</div>
                                             </a>
                                             <ul class="sub-menu-container">
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="slider-revolution.html">
-                                                        <div>Revolution Slider</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Piloto Comercial de Avión
+                                                            (PCA)</div>
                                                     </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="rs-demos.html">
-                                                                <div>Premium Templates</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-revolution.html">
-                                                                <div>Full Screen</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="slider-revolution-fullwidth.html">
-                                                                <div>Full Width</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="slider-revolution-kenburns.html">
-                                                                <div>Kenburns Effect</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="slider-revolution-html5-videos.html">
-                                                                <div>HTML5 Video</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="slider-canvas.html">
-                                                        <div>Canvas Slider</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Auxiliar de Servicio a Bordo
+                                                            (ASA-TCP)</div>
                                                     </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas.html">
-                                                                <div>Full Width</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-fade.html">
-                                                                <div>Fade Transition</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-autoplay.html">
-                                                                <div>Autoplay Feature</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="slider-canvas-video-event.html">
-                                                                <div>Custom Video Event</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-pagination.html">
-                                                                <div>Pagination Navigation</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-3.html">
-                                                                <div>3 Columns</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-4.html">
-                                                                <div>4 Columns</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-5.html">
-                                                                <div>5 Columns</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="slider-flex.html">
-                                                        <div>Flex Slider</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Despachador de Vuelo (DPA)
+                                                        </div>
                                                     </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-flex.html">
-                                                                <div>Default Layout</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-flex-thumbs.html">
-                                                                <div>with Thumbs</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="slider-owl.html">
-                                                        <div>Owl Slider</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Técnico en Línea de Aviones
+                                                            (TLA)</div>
                                                     </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-owl-full.html">
-                                                                <div>Full Width</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-owl.html">
-                                                                <div>Boxed Width</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="slider-owl-videos.html">
-                                                                <div>Video Slider</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="static-parallax.html">
-                                                        <div>Static Media</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Técnico en Línea de
+                                                            Helicópteros (TLH)</div>
                                                     </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="static-parallax.html">
-                                                                <div>Static - Parallax</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="static-image.html">
-                                                                <div>Static - Image</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="static-thumbs-grid.html">
-                                                                <div>Static - Thumb Gallery</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="static-html5-video.html">
-                                                                <div>Static - HTML5 Video</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="static-embed-video.html">
-                                                                <div>Static - Embedded Video</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="menu-item">
                                             <a class="menu-link" href="#">
-                                                <div><i class="icon-umbrella"></i>Headers</div>
+                                                <div><i class="icon-umbrella-beach"></i>Turismo</div>
                                             </a>
                                             <ul class="sub-menu-container">
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="header-light.html">
-                                                        <div>Light Version</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="header-dark.html">
-                                                        <div>Dark Version</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="header-transparent.html">
-                                                        <div>Transparent</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="header-semi-transparent.html">
-                                                        <div>Semi Transparent</div>
-                                                    </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="header-semi-transparent.html">
-                                                                <div>Light Version</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="header-semi-transparent-dark.html">
-                                                                <div>Dark Version</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="header-side-left.html">
-                                                        <div>Left Side Header</div>
-                                                    </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="header-side-left.html">
-                                                                <div>Fixed Position</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="header-side-left-open.html">
-                                                                <div>OnClick Open</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="header-side-left-open-push.html">
-                                                                <div>Push Content</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="header-side-right.html">
-                                                        <div>Right Side Header</div>
-                                                    </a>
-                                                    <ul class="sub-menu-container">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="header-side-right.html">
-                                                                <div>Fixed Position</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="header-side-right-open.html">
-                                                                <div>OnClick Open</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="header-side-right-open-push.html">
-                                                                <div>Push Content</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="header-floating.html">
-                                                        <div>Floating Version</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="static-sticky.html">
-                                                        <div>Static Sticky</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="responsive-sticky.html">
-                                                        <div>Responsive Sticky</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="logo-changer.html">
-                                                        <div>Alternate Logos</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="alternate-mobile-menu.html">
-                                                        <div>Alternate Mobile Menu</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Técnico en Turismo y
+                                                            Agencias de Viajes (ATA)</div>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item mega-menu mega-menu-small">
+                                        <li class="menu-item">
                                             <a class="menu-link" href="#">
-                                                <div><i class="icon-align-justify2"></i>Menu Styles</div>
-                                            </a>
-                                            <div class="mega-menu-content">
-                                                <div class="row mx-0">
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="header-light.html">
-                                                                <div>Default Layout</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-2.html">
-                                                                <div>Alternate Layout</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-3.html">
-                                                                <div>Pill Style</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-4.html">
-                                                                <div>Border Style</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-5.html">
-                                                                <div>Large Icon Menu</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="split-menu.html">
-                                                                <div>Split Layout</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-6.html">
-                                                                <div>Scaling Border</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-subtitle.html">
-                                                                <div>Sub-Title Menu</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-7.html">
-                                                                <div>Extended Menu 1</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-8.html">
-                                                                <div>Extended Menu 2</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-9.html">
-                                                                <div>Extended Menu 3</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="menu-10.html">
-                                                                <div>Overlay Menu</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="mega-menu.html">
-                                                <div><i class="icon-line-columns"></i>Mega Menu</div>
+                                                <div><i class="icon-line-truck"></i>Transporte Terrestre</div>
                                             </a>
                                             <ul class="sub-menu-container">
                                                 <li class="menu-item">
-                                                    <a class="menu-link" href="mega-menu.html">
-                                                        <div>Widgetized</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="mega-menu-full.html">
-                                                        <div>Full-Width</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="mega-menu-tab.html">
-                                                        <div>Tabbed</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="mega-menu-side-tab.html">
-                                                        <div>Side-Tabs (onClick)</div>
+                                                    <a class="menu-link" href="#">
+                                                        <div><i class="icon-line-book"></i>Técnico en Conductor de
+                                                            Transporte de Pasajeros y Carga</div>
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="forms.html">
-                                                <div><i class="icon-wpforms"></i>Forms</div>
-                                            </a>
-                                        </li>
-                                        <li class="menu-item mega-menu mega-menu-small">
-                                            <a class="menu-link" href="widgets.html">
-                                                <div><i class="icon-gift"></i>Widgets</div>
-                                            </a>
-                                            <div class="mega-menu-content">
-                                                <div class="row mx-0">
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Links</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Flickr Photostream</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Dribbble Shots</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Subscribers</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Posts List</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Twitter Feed</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Tabbed Widgets</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Carousel</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Social Icons</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Testimonials</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Quick Contact</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Tags Cloud</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Video Embeds</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="widgets.html">
-                                                                <div>Raw HTML</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item mega-menu mega-menu-small">
-                                            <a class="menu-link" href="#">
-                                                <div><i class="icon-ok-sign"></i>Page Titles</div>
-                                            </a>
-                                            <div class="mega-menu-content">
-                                                <div class="row mx-0">
-                                                    <ul class="sub-menu-container mega-menu-column col-5">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page.html">
-                                                                <div>Left Align</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-right.html">
-                                                                <div>Right Align</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-center.html">
-                                                                <div>Center Align</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-dark.html">
-                                                                <div>Dark Style</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-pattern.html">
-                                                                <div>BG Pattern</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="sub-menu-container mega-menu-column col-7">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-parallax.html">
-                                                                <div>Parallax - Default</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link"
-                                                                href="page-title-parallax-header.html">
-                                                                <div>Parallax - Transparent</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-video.html">
-                                                                <div>HTML5 Video</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-nobg.html">
-                                                                <div>No Background</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="page-title-mini.html">
-                                                                <div>Mini Version</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="side-panel.html">
-                                                <div><i class="icon-line-layout"></i>Side Panel</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="side-panel-left-overlay.html">
-                                                        <div>Left Overlay</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="side-panel-left-push.html">
-                                                        <div>Left Push</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="side-panel-right-overlay.html">
-                                                        <div>Right Overlay</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="side-panel.html">
-                                                        <div>Right Push</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="side-panel-light.html">
-                                                        <div>Light Background</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a class="menu-link" href="modal-onload.html">
-                                                <div><i class="icon-line-expand"></i>Modal OnLoad</div>
-                                            </a>
-                                            <ul class="sub-menu-container">
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="modal-onload.html">
-                                                        <div>Default Layout</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="modal-onload-iframe.html">
-                                                        <div>Video iFrame</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="modal-onload-subscribe.html">
-                                                        <div>Subscription Form</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="modal-onload-common-height.html">
-                                                        <div>Common Height</div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a class="menu-link" href="modal-onload-cookie.html">
-                                                        <div>Cookies Enabled</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item mega-menu mega-menu-small">
-                                            <a class="menu-link" href="#footer" data-scrollto="#footer">
-                                                <div><i class="icon-th"></i>Footers</div>
-                                            </a>
-                                            <div class="mega-menu-content">
-                                                <div class="row mx-0">
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="sticky-footer.html">
-                                                                <div>Sticky</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="#footer"
-                                                                data-scrollto="#footer">
-                                                                <div>Layout 1</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="footer-2.html#footer">
-                                                                <div>Layout 2</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="footer-3.html#footer">
-                                                                <div>Layout 3</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="footer-4.html#footer">
-                                                                <div>Layout 4</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="footer-5.html#footer">
-                                                                <div>Layout 5</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="sub-menu-container mega-menu-column col">
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="footer-6.html#footer">
-                                                                <div>Layout 6</div>
-                                                            </a>
-                                                        </li>
-                                                        <li class="menu-item">
-                                                            <a class="menu-link" href="footer-7.html#footer">
-                                                                <div>Layout 7</div>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
                                         </li>
                                     </ul>
                                 </li>
@@ -1192,62 +367,71 @@
                                                 <ul class="sub-menu-container mega-menu-column col-lg-3">
                                                     <li class="menu-item mega-menu-title">
                                                         <a class="menu-link" href="#">
-                                                            <div>Introductory</div>
+                                                            <div>Quiénes somos</div>
                                                         </a>
                                                         <ul class="sub-menu-container">
                                                             <li class="menu-item">
                                                                 <a class="menu-link" href="about.html">
-                                                                    <div>About Us</div>
+                                                                    <div>Institución</div>
                                                                 </a>
                                                                 <ul class="sub-menu-container mega-menu-dropdown">
                                                                     <li class="menu-item">
                                                                         <a class="menu-link" href="about.html">
-                                                                            <div>Main Layout</div>
+                                                                            <div>Nosotros</div>
                                                                         </a>
                                                                     </li>
                                                                     <li class="menu-item">
                                                                         <a class="menu-link" href="about-2.html">
-                                                                            <div>Alternate Layout</div>
+                                                                            <div>Certificaciones</div>
                                                                         </a>
                                                                     </li>
                                                                     <li class="menu-item">
                                                                         <a class="menu-link" href="about-me.html">
-                                                                            <div>About Me</div>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="menu-item">
-                                                                        <a class="menu-link" href="team.html">
-                                                                            <div>Team Members</div>
+                                                                            <div>Conderaciones</div>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="menu-item">
                                                                 <a class="menu-link" href="gdpr.html">
-                                                                    <div>GDPR Compliance</div>
+                                                                    <div>Recursos Locativos</div>
                                                                 </a>
                                                                 <ul class="sub-menu-container mega-menu-dropdown">
                                                                     <li class="menu-item">
                                                                         <a class="menu-link" href="gdpr.html">
-                                                                            <div>Default</div>
+                                                                            <div>Sede Principal</div>
                                                                         </a>
                                                                     </li>
                                                                     <li class="menu-item">
                                                                         <a class="menu-link" href="gdpr-small.html">
-                                                                            <div>Small</div>
+                                                                            <div>Sede Hangar</div>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
+                                                            
                                                             <li class="menu-item">
-                                                                <a class="menu-link" href="jobs.html">
-                                                                    <div>Careers</div>
+                                                                <a class="menu-link" href="gdpr.html">
+                                                                    <div>Normativa</div>
                                                                 </a>
-                                                            </li>
-                                                            <li class="menu-item">
-                                                                <a class="menu-link" href="profile.html">
-                                                                    <div>User Profile</div>
-                                                                </a>
+                                                                <ul class="sub-menu-container mega-menu-dropdown">
+                                                                    <li class="menu-item">
+                                                                        <a class="menu-link" href="gdpr.html">
+                                                                            <div>Manual General Directiva de Institución</div>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a class="menu-link" href="gdpr-small.html">
+                                                                            <div>Política de tratamiento de datos personales</div>
+                                                                        </a>
+                                                                    </li>
+                                                                    
+                                                                    <li class="menu-item">
+                                                                        <a class="menu-link" href="gdpr-small.html">
+                                                                            <div>Brochure Institucional</div>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -1718,14 +902,12 @@
                                                                 </a>
                                                             </li>
                                                             <li class="menu-item">
-                                                                <a class="menu-link"
-                                                                    href="portfolio-2-masonry.html">
+                                                                <a class="menu-link" href="portfolio-2-masonry.html">
                                                                     <div>2 Columns</div>
                                                                 </a>
                                                             </li>
                                                             <li class="menu-item">
-                                                                <a class="menu-link"
-                                                                    href="portfolio-3-masonry.html">
+                                                                <a class="menu-link" href="portfolio-3-masonry.html">
                                                                     <div>3 Columns</div>
                                                                 </a>
                                                             </li>
@@ -1735,14 +917,12 @@
                                                                 </a>
                                                             </li>
                                                             <li class="menu-item">
-                                                                <a class="menu-link"
-                                                                    href="portfolio-5-masonry.html">
+                                                                <a class="menu-link" href="portfolio-5-masonry.html">
                                                                     <div>5 Columns</div>
                                                                 </a>
                                                             </li>
                                                             <li class="menu-item">
-                                                                <a class="menu-link"
-                                                                    href="portfolio-6-masonry.html">
+                                                                <a class="menu-link" href="portfolio-6-masonry.html">
                                                                     <div>6 Columns</div>
                                                                 </a>
                                                             </li>
@@ -2601,7 +1781,8 @@
                                                             </a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a class="menu-link" href="slider-canvas-pagination.html">
+                                                            <a class="menu-link"
+                                                                href="slider-canvas-pagination.html">
                                                                 <div>Pagination Navigation</div>
                                                             </a>
                                                         </li>
@@ -2721,7 +1902,8 @@
                                                     </a>
                                                     <ul class="sub-menu-container">
                                                         <li class="menu-item">
-                                                            <a class="menu-link" href="header-semi-transparent.html">
+                                                            <a class="menu-link"
+                                                                href="header-semi-transparent.html">
                                                                 <div>Light Version</div>
                                                             </a>
                                                         </li>
