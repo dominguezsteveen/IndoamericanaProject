@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\inicio\InicioController;
+use App\Http\Controllers\Web\Inicio\InicioController;
 use Illuminate\Support\Facades\Route;
 
 /*

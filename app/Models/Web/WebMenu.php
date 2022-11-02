@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Web;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Menu extends Model
+class WebMenu extends Model
 {
     use HasFactory;
 
     public function getHijos()
     {
-        return $this->hasMany(Menu::class, 'padre_id', 'id');
+        return $this->hasMany(WebMenu::class, 'padre_id', 'id');
     }
 }

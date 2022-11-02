@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Web;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ImgSlider extends Model
+class WebImgSlider extends Model
 {
     use HasFactory;
 }

@@ -13,15 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('menus', function (Blueprint $table) {
-            $table->unsignedBigInteger('id')->autoIncrement();
+        Schema::create('web_menus', function (Blueprint $table) {
+            $table->id();
             $table->string('titulo');
             $table->string('url_redirect')->default('/');
-            $table->unsignedBigInteger('padre_id')->nullable();
             $table->boolean('show')->default(true);
+            $table->foreignId('padre_id')->nullable()->constrained('web_menus');
             $table->timestamps();
-
-            $table->foreign('padre_id')->references('id')->on('menus');
         });
     }
 
@@ -32,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('menus');
+        Schema::dropIfExists('web_menus');
     }
 };
