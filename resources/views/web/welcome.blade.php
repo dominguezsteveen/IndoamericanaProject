@@ -305,8 +305,7 @@
         </section><!-- #content end -->
         <div class="line"></div>
 
-        {{-- @livewire('web.web-post', ['title' => 'titulo prueba']) --}}
-
+        @livewire('web.web-post-livewire')
         <!-- Footer
         ============================================= -->
         <footer id="footer" class="dark">
