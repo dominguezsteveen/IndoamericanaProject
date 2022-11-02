@@ -323,7 +323,6 @@
                                     </li>
                                 @endforeach
                             </ul>
-
                         </nav><!-- #primary-menu end -->
                         <form class="top-search-form" action="search.html" method="get">
                             <input type="text" name="q" class="form-control" value=""
