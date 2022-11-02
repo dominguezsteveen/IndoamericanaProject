@@ -268,83 +268,44 @@
             </div>
             <div class="header-wrap-clone"></div>
         </header><!-- #header end -->
-
-        <section id="slider" class="slider-element swiper_wrapper vh-75">
+        <section id="slider" class="slider-element h-auto" style="background-color: #03204C;">
             <div class="slider-inner">
 
-                <div class="swiper-container swiper-parent">
-                    <div class="swiper-wrapper">
-                        @foreach ($imgs_slider as $img)
-                            <div class="swiper-slide dark">
-                                <div class="swiper-slide-bg"
-                                    style="background-image: url('{{ $img->urlImg }}'); background-size: contain;background-origin: border-box">
-                                </div>
-                            </div>
-                        @endforeach
-                    </div>
-                    <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-                    <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
-                    <div class="slide-number">
-                        <div class="slide-number-current"></div><span>/</span>
-                        <div class="slide-number-total"></div>
-                    </div>
+                <div class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-pagi="false"
+                    data-loop="true" data-animate-in="slideInRight" data-speed="450" data-animate-out="slideOutLeft"
+                    data-autoplay="5000">
+                    @foreach ($imgs_slider as $img)
+                        <a href="#"><img src="{{ $img->urlImg }}" alt="Slider"
+                                style="object-fit: cover"></a>
+                    @endforeach
                 </div>
 
             </div>
         </section>
         <!-- Content
         ============================================= -->
-        <section id="content">
-            <div class="content-wrap clearfix">
-                <div class="section topmargin-sm mb-0">
-
-                    <div class="container clearfix">
-
-                        <ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
-                            <li class="grid-item">
-                                <div class="">
-                                    <div class="programa-titulo">
-                                        Piloto Comercial
-                                    </div>
-                                    <div class="programa-img">
-                                        <a href="#"><img
-                                                src="images/web/inicio/sections/programas/piloto-1080.png"
-                                                alt="piloto"></a>
-                                    </div>
-                                    <div class="programa-content">
-                                        <p>Te encargaras de realizar la operación, control y desplazamiento de un avión
-                                            o helicóptero, puede rediseñar la ruta y el patrón de vuelo de ser
-                                            necesario, basado en las condiciones meteorológicas que encuentre durante el
-                                            trayecto.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="grid-item">
-                                <div class="">
-                                    <div class="programa-titulo">
-                                        AUXILIAR DE VUELO
-                                    </div>
-                                    <div class="programa-img">
-                                        <a href="#"><img
-                                                src="images/web/inicio/sections/programas/AuxVuelo.jpeg"
-                                                alt="AuxVuelo.jpeg"></a>
-                                    </div>
-                                    <div class="programa-content">
-                                        <p>Vela por la seguridad de los pasajeros y atender situaciones de emergencia y
-                                            salvamento, facilitar las provisiones y servicios necesarios del pasajero.
-                                            También se desempeña como asesor Duty Free, servicios en counters, salas de
-                                            embarque y otras…</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-                <div class="line"></div>
-            </div>
+        <section id="content" class="container clearfix">
+            <ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
+                @foreach ($posts as $post)
+                    <li class="grid-item">
+                        <div class="">
+                            <div class="programa-titulo">
+                                {{ $post->titulo }}
+                            </div>
+                            <div class="programa-img">
+                                <a href="#"><img src="{{ $post->img }}" alt="img_post"></a>
+                            </div>
+                            <div class="programa-content">
+                                <p>{{ $post->content }}</p>
+                            </div>
+                        </div>
+                    </li>
+                @endforeach
+            </ul>
         </section><!-- #content end -->
+        <div class="line"></div>
+
+        @livewire('web.web-post', ['title' => 'titulo prueba'])
 
         <!-- Footer
         ============================================= -->

@@ -14109,6 +14109,7 @@ blockquote.float-end {
 	touch-action: manipulation;
 }
 
+
 .owl-carousel .owl-stage {
 	position: relative;
 	-ms-touch-action: pan-Y;
