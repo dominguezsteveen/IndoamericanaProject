@@ -225,7 +225,8 @@ body #side-panel.dark {
 
 .dark .menu-item:hover > .menu-link,
 .dark .menu-item.current > .menu-link {
-	color: #1ABC9C;
+	/* color: #1ABC9C; */
+	color: #7ECDDD;
 }
 
 @media (max-width: 991.98px) {
@@ -266,7 +267,8 @@ body #side-panel.dark {
 	.dark .primary-menu:not(.not-dark) .mega-menu-content {
 		background-color: #333;
 		border-color: rgba(255,255,255,0.05);
-		border-top-color: #1ABC9C;
+		/* border-top-color: #1ABC9C; */
+		border-top-color: #7ECDDD;
 	}
 
 	.dark .primary-menu:not(.not-dark) .sub-menu-container .menu-item > .menu-link {
@@ -275,7 +277,8 @@ body #side-panel.dark {
 
 	.dark .primary-menu:not(.not-dark) .sub-menu-container .menu-item:hover > .menu-link {
 		background-color: rgba(0,0,0,0.1);
-		color: #1ABC9C;
+		/* color: #1ABC9C; */
+		color: #7ECDDD;
 	}
 
 	.dark .primary-menu:not(.not-dark) .mega-menu-content .sub-menu-container:not(.mega-menu-dropdown) {
