@@ -1164,7 +1164,7 @@ a.h-text-dark:hover {
 	width: 1320px !important;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 	.align-wide-lg,
 	.align-wide-xl,
 	.align-wide-xxl {
@@ -3356,7 +3356,7 @@ html[xmlns] .slider-wrap {
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
 	.sticky-header #header-wrap {
 		position: fixed;
@@ -3726,7 +3726,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	padding-left: 0;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
 	.primary-menu {
 		max-width: 100%;
@@ -3765,7 +3765,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 /* Off Canvas Menu
 -----------------------------------------------------------------*/
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
 	#header:not(.sticky-header) .mobile-menu-off-canvas .menu-container {
 		position: fixed;
@@ -4753,7 +4753,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
 	.side-push-panel #side-panel-trigger-close a {
 		display: block;
@@ -4988,7 +4988,7 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 	transition: right .3s ease;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 	.top-cart-content {
 		right: -260px !important;
 		height: calc(100vh);
@@ -5688,7 +5688,7 @@ body:not(.stretched) .slider-parallax .slider-inner { left: auto; }
 }
 
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
 	#slider {
 		display: -ms-flexbox !important;
@@ -5893,7 +5893,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	font-size: 1.5rem;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 
 	.swiper_wrapper .slider-caption h2 {
 		font-size: 5.5vw;
@@ -14406,7 +14406,7 @@ body:not(.device-touch) #gotoTop {
 	border-top: 0;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.sidebar-widgets-wrap {
 		position: relative;
 		display: -ms-flex;

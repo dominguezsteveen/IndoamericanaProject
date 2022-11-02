@@ -1192,10 +1192,6 @@ select {
   margin-left: auto;
   margin-right: auto;
 }
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
 .ml-3 {
   margin-left: 0.75rem;
 }

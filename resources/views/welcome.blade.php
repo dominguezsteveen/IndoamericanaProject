@@ -175,11 +175,11 @@
                     ============================================= -->
                     <div id="logo" class="w-full">
                         <a href="/" class="standard-logo"
-                            data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
-                                src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
+                            data-dark-logo="images/inicio/logo_header/trainer-y-indo-1.png"><img
+                                src="images/inicio/logo_header/trainer-y-indo-1.png" alt="Indo Logo"></a>
                         <a href="/" class="retina-logo"
-                            data-dark-logo="images/inicio/slider/trainer-y-indo-1.png"><img
-                                src="images/inicio/slider/trainer-y-indo-1.png" alt="Indo Logo"></a>
+                            data-dark-logo="images/inicio/logo_header/trainer-y-indo-1.png"><img
+                                src="images/inicio/logo_header/trainer-y-indo-1.png" alt="Indo Logo"></a>
                     </div><!-- #logo end -->
 
                     {{-- <div class="header-misc mb-4 mb-lg-0 order-lg-last">
@@ -253,7 +253,6 @@
             <div id="header-wrap" class="border-top border-f5">
                 <div class="container">
                     <div class="header-row justify-content-between flex-row-reverse flex-lg-row">
-
                         <div class="header-misc">
 
                             <!-- Top Search
@@ -264,7 +263,6 @@
                             </div><!-- #top-search end -->
 
                         </div>
-
                         <div id="primary-menu-trigger">
                             <svg class="svg-trigger" viewBox="0 0 100 100">
                                 <path
@@ -276,11 +274,9 @@
                                 </path>
                             </svg>
                         </div>
-
                         <!-- Primary Navigation
                             ============================================= -->
                         <nav class="primary-menu">
-
                             <ul class="menu-container">
                                 @foreach ($menus as $menu)
                                     <li class="menu-item">
@@ -329,66 +325,28 @@
                             </ul>
 
                         </nav><!-- #primary-menu end -->
-
                         <form class="top-search-form" action="search.html" method="get">
                             <input type="text" name="q" class="form-control" value=""
                                 placeholder="Type &amp; Hit Enter.." autocomplete="off">
                         </form>
-
                     </div>
-
                 </div>
             </div>
             <div class="header-wrap-clone"></div>
         </header><!-- #header end -->
 
-        <section id="slider" class="slider-element slider-parallax swiper_wrapper vh-75">
+        <section id="slider" class="slider-element swiper_wrapper vh-60">
             <div class="slider-inner">
 
                 <div class="swiper-container swiper-parent">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide dark">
-                            <div class="container">
-                                <div class="slider-caption slider-caption-center">
-                                    <h2 data-animate="fadeInUp">Welcome to Canvas</h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Create
-                                        just what you need for your Perfect Website. Choose from a wide range of
-                                        Elements &amp; simply put them on our Canvas.</p>
+                        @foreach ($imgs_slider as $img)
+                            <div class="swiper-slide dark">
+                                <div class="swiper-slide-bg"
+                                    style="background-image: url('{{ $img->urlImg }}'); background-size: contain;background-origin: border-box">
                                 </div>
                             </div>
-                            <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/1.jpg');">
-                            </div>
-                        </div>
-                        <div class="swiper-slide dark">
-                            <div class="container">
-                                <div class="slider-caption slider-caption-center">
-                                    <h2 data-animate="fadeInUp">Beautifully Flexible</h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Looks
-                                        beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with
-                                        Responsive functionality that can be adapted to any screen size.</p>
-                                </div>
-                            </div>
-                            <div class="video-wrap">
-                                <video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
-                                    <source src='images/videos/explore.mp4' type='video/mp4' />
-                                    <source src='images/videos/explore.webm' type='video/webm' />
-                                </video>
-                                <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="container">
-                                <div class="slider-caption">
-                                    <h2 data-animate="fadeInUp">Great Performance</h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">You'll
-                                        be surprised to see the Final Results of your Creation &amp; would crave for
-                                        more.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide-bg"
-                                style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;">
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                     <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
                     <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
