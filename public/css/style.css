@@ -6677,7 +6677,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 .content-wrap {
 	position: relative;
-	padding: 80px 0;
+	/* padding: 80px 0; */
 	overflow: hidden;
 }
 
@@ -11789,7 +11789,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 .testi-image i {
 	text-align: center;
 	background-color: #EEE;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	line-height: 64px;
 	font-size: 28px;
 	color: #888;
@@ -11814,12 +11814,15 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .testi-meta {
 	margin-top: 10px;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 15px;
+	color: #1C4360;
 }
 
-.testi-meta::before { content: '\2013'; }
+/* .testi-meta::before { content: '\2013'; } */
 
 .testi-meta span {
 	display: block;

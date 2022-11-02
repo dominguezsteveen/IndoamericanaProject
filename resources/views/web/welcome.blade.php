@@ -182,71 +182,6 @@
                                 src="images/web/inicio/logo_header/trainer-y-indo-1.png" alt="Indo Logo"></a>
                     </div><!-- #logo end -->
 
-                    {{-- <div class="header-misc mb-4 mb-lg-0 order-lg-last">
-
-                        <ul class="header-extras me-0 me-sm-4">
-                            <li>
-                                <i class="i-plain icon-email3 m-0"></i>
-                                <div class="he-text">
-                                    Drop an Email
-                                    <span>info@canvas.com</span>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="i-plain icon-call m-0"></i>
-                                <div class="he-text">
-                                    Get in Touch
-                                    <span>1800-1144-551</span>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <!-- Top Cart
-                        ============================================= -->
-                        <div id="top-cart" class="header-misc-icon d-none d-sm-block">
-                            <a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span
-                                    class="top-cart-number">5</span></a>
-                            <div class="top-cart-content">
-                                <div class="top-cart-title">
-                                    <h4>Shopping Cart</h4>
-                                </div>
-                                <div class="top-cart-items">
-                                    <div class="top-cart-item">
-                                        <div class="top-cart-item-image">
-                                            <a href="#"><img src="images/shop/small/1.jpg"
-                                                    alt="Blue Round-Neck Tshirt" /></a>
-                                        </div>
-                                        <div class="top-cart-item-desc">
-                                            <div class="top-cart-item-desc-title">
-                                                <a href="#">Blue Round-Neck Tshirt with a Button</a>
-                                                <span class="top-cart-item-price d-block">$19.99</span>
-                                            </div>
-                                            <div class="top-cart-item-quantity">x 2</div>
-                                        </div>
-                                    </div>
-                                    <div class="top-cart-item">
-                                        <div class="top-cart-item-image">
-                                            <a href="#"><img src="images/shop/small/6.jpg"
-                                                    alt="Light Blue Denim Dress" /></a>
-                                        </div>
-                                        <div class="top-cart-item-desc">
-                                            <div class="top-cart-item-desc-title">
-                                                <a href="#">Light Blue Denim Dress</a>
-                                                <span class="top-cart-item-price d-block">$24.99</span>
-                                            </div>
-                                            <div class="top-cart-item-quantity">x 3</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="top-cart-action">
-                                    <span class="top-checkout-price">$114.95</span>
-                                    <a href="#" class="button button-3d button-small m-0">View Cart</a>
-                                </div>
-                            </div>
-                        </div><!-- #top-cart end -->
-
-                    </div> --}}
-
                 </div>
             </div>
 
@@ -334,7 +269,7 @@
             <div class="header-wrap-clone"></div>
         </header><!-- #header end -->
 
-        <section id="slider" class="slider-element swiper_wrapper vh-60">
+        <section id="slider" class="slider-element swiper_wrapper vh-75">
             <div class="slider-inner">
 
                 <div class="swiper-container swiper-parent">
@@ -357,9 +292,121 @@
 
             </div>
         </section>
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+            <div class="content-wrap clearfix">
+                <div class="section topmargin-sm mb-0">
+
+                    <div class="container clearfix">
+
+                        <ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
+                            <li class="grid-item">
+                                <div class="testimonial">
+                                    <div class="testi-meta">
+                                        Piloto Comercial
+                                    </div>
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/web/inicio/sections/programas/piloto-1080.png"
+                                                alt="piloto"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam
+                                            quibusdam cum libero illo rerum repellendus!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item">
+                                <div class="testimonial">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonials/2.jpg"
+                                                alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos
+                                            obcaecati id culpa corporis molestias.</p>
+                                        <div class="testi-meta">
+                                            Collis Ta'eed
+                                            <span>Envato Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item">
+                                <div class="testimonial">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonials/7.jpg"
+                                                alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Fugit officia dolor sed harum excepturi ex iusto magnam asperiores molestiae
+                                            qui natus obcaecati facere sint amet.</p>
+                                        <div class="testi-meta">
+                                            Mary Jane
+                                            <span>Google Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item">
+                                <div class="testimonial">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonials/3.jpg"
+                                                alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Similique fugit repellendus expedita excepturi iure perferendis provident
+                                            quia eaque. Repellendus, vero numquam?</p>
+                                        <div class="testi-meta">
+                                            Steve Jobs
+                                            <span>Apple Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item">
+                                <div class="testimonial">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonials/4.jpg"
+                                                alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, perspiciatis
+                                            illum totam dolore deleniti labore.</p>
+                                        <div class="testi-meta">
+                                            Jamie Morrison
+                                            <span>Adobe Inc.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item">
+                                <div class="testimonial">
+                                    <div class="testi-image">
+                                        <a href="#"><img src="images/testimonials/8.jpg"
+                                                alt="Customer Testimonails"></a>
+                                    </div>
+                                    <div class="testi-content">
+                                        <p>Porro dolorem saepe reiciendis nihil minus neque. Ducimus rem necessitatibus
+                                            repellat laborum nemo quod.</p>
+                                        <div class="testi-meta">
+                                            Cyan Ta'eed
+                                            <span>Tutsplus</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="line"></div>
+            </div>
+        </section><!-- #content end -->
 
         <!-- Content
-  ============================================= -->
+        ============================================= -->
         <section id="content">
             <div class="content-wrap">
 
@@ -431,49 +478,6 @@
 
                     <div class="line"></div>
 
-                    <div class="row col-mb-50">
-                        <div class="col-md-5">
-                            <a href="https://vimeo.com/101373765"
-                                class="d-block position-relative rounded overflow-hidden" data-lightbox="iframe">
-                                <img src="images/others/1.jpg" alt="Image" class="w-100">
-                                <div class="bg-overlay">
-                                    <div class="bg-overlay-content dark">
-                                        <i class="i-circled i-light icon-line-play m-0"></i>
-                                    </div>
-                                    <div class="bg-overlay-bg op-06 dark"></div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-md-7">
-                            <div class="heading-block">
-                                <h2>Globally Preferred Ecommerce Platform</h2>
-                            </div>
-
-                            <p>Worldwide John Lennon, mobilize humanitarian; emergency response donors; cause human
-                                experience effect. Volunteer Action Against Hunger Aga Khan safeguards women's.</p>
-
-                            <div class="row col-mb-30">
-                                <div class="col-sm-6 col-md-12 col-lg-6">
-                                    <ul class="iconlist iconlist-color mb-0">
-                                        <li><i class="icon-caret-right"></i> Responsive Ready Layout</li>
-                                        <li><i class="icon-caret-right"></i> Retina Display Supported</li>
-                                        <li><i class="icon-caret-right"></i> Powerful &amp; Optimized Code</li>
-                                        <li><i class="icon-caret-right"></i> 380+ Templates Included</li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-sm-6 col-md-12 col-lg-6">
-                                    <ul class="iconlist iconlist-color mb-0">
-                                        <li><i class="icon-caret-right"></i> 12+ Headers &amp; Menu Designs</li>
-                                        <li><i class="icon-caret-right"></i> Premium Sliders Included</li>
-                                        <li><i class="icon-caret-right"></i> Light &amp; Dark Colors</li>
-                                        <li><i class="icon-caret-right"></i> e-Commerce Design Included</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
@@ -638,7 +642,8 @@
                                                 class="icon-line-ellipsis"></i></a>
                                     </div>
                                     <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
-                                        data-hover-speed="350"></div>
+                                        data-hover-speed="350">
+                                    </div>
                                 </div>
                             </div>
                             <div class="portfolio-desc">
@@ -667,7 +672,8 @@
                                                 class="icon-line-ellipsis"></i></a>
                                     </div>
                                     <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
-                                        data-hover-speed="350"></div>
+                                        data-hover-speed="350">
+                                    </div>
                                 </div>
                             </div>
                             <div class="portfolio-desc">
@@ -695,7 +701,8 @@
                                                 class="icon-line-ellipsis"></i></a>
                                     </div>
                                     <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"
-                                        data-hover-speed="350"></div>
+                                        data-hover-speed="350">
+                                    </div>
                                 </div>
                             </div>
                             <div class="portfolio-desc">
@@ -1215,7 +1222,8 @@
                         <div class="col-md-6 text-center text-md-start">
                             Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
                             <div class="copyright-links"><a href="#">Terms of Use</a> / <a
-                                    href="#">Privacy Policy</a></div>
+                                    href="#">Privacy
+                                    Policy</a></div>
                         </div>
 
                         <div class="col-md-6 text-center text-md-end">
