@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Web\Inicio\InicioController;
+use App\Http\Controllers\Web\Programas\WebProgramasController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +30,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+// Url para ver un programa
+Route::get('/web/programas-academicos/{programa}',[WebProgramasController::class, 'getPrograma'])->name('show-programa');

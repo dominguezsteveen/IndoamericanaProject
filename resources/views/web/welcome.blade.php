@@ -286,17 +286,18 @@
         ============================================= -->
         <section id="content" class="container clearfix">
             <ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
-                @foreach ($posts as $post)
+                @foreach ($programs as $program)
                     <li class="grid-item">
                         <div class="">
                             <div class="programa-titulo">
-                                {{ $post->titulo }}
+                                {{ $program->titulo }}
                             </div>
                             <div class="programa-img">
-                                <a href="#"><img src="{{ $post->img }}" alt="img_post"></a>
+                                <a href="web/programas-academicos/{{ $program->urlRedirect }}"><img
+                                        src="{{ $program->img }}" alt="img_post"></a>
                             </div>
                             <div class="programa-content">
-                                <p>{{ $post->content }}</p>
+                                <p>{{ $program->descripcion }}</p>
                             </div>
                         </div>
                     </li>

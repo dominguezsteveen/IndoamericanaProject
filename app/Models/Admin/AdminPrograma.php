@@ -10,4 +10,5 @@ class AdminPrograma extends Model
     use HasFactory;
 
     // slug como llave primaria
+    // protected $primaryKey = 'urlRedirect';
 }
