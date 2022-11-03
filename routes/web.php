@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[InicioController::class, 'index']);
+Route::get('/',function(){
+    return redirect()->to('/web');
+});
+Route::get('/web',[InicioController::class, 'index'])->name('web-space');
+
 
 Route::middleware([
     'auth:sanctum',

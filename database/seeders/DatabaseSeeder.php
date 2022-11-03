@@ -23,6 +23,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call(WebMenuSeeder::class);
         $this->call(WebImgSliderSeeder::class);
-        $this->call(WebPostSeeder::class);
+        $this->call(AdminProgramaSeeder::class);
     }
 }

@@ -13,12 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('web_posts', function (Blueprint $table) {
+        Schema::create('admin_programas', function (Blueprint $table) {
             $table->id();
             $table->string('titulo');
             $table->string('img');
             $table->string('urlRedirect');
-            $table->longText('content');
+            $table->longText('descripcion');
             $table->integer('orden')->nullable();
             $table->boolean('show')->default(true);
             $table->timestamps();
@@ -32,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('web_posts');
+        Schema::dropIfExists('admin_programas');
     }
 };

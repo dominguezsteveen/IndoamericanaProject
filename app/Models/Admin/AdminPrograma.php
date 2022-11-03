@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Admin;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class WebPost extends Model
+class AdminPrograma extends Model
 {
     use HasFactory;
+
+    // slug como llave primaria
 }
