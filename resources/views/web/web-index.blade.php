@@ -83,7 +83,39 @@
                 </li>
             @endforeach
         </ul>
-    </section><!-- #content end -->
+    </section>
     <div class="line"></div>
-    
+    @foreach ($sections as $section)
+        <section id="content" class="container clearfix">
+
+            <!-- Single Post
+            ============================================= -->
+            <div class="entry clearfix">
+
+                <!-- Entry Image
+                ============================================= -->
+                <div class="entry-image">
+                    <a href="{{ $section->urlRedirect }}"><img src="{{ $section->img }}"
+                            alt="{{ $section->urlRedirect }}" style="margin: auto"></a>
+                </div><!-- .entry-image end -->
+
+                <!-- Entry Title
+                ============================================= -->
+                <div class="entry-title">
+                    <h1 style="text-align: center; color: #1C4360; font-style: italic">{{ $section->titulo }}</h1>
+                </div><!-- .entry-title end -->
+
+
+                <!-- Entry Content
+                ============================================= -->
+                <div class="entry-content mt-0">
+                        {!! $section->content !!}
+                </div><!-- .entry end -->
+
+            </div><!-- .postcontent end -->
+        </section>
+        <div class="line"></div>
+    @endforeach
+    <!-- #content end -->
+
 </x-app-layout>

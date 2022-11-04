@@ -25,5 +25,6 @@ class DatabaseSeeder extends Seeder
         $this->call(WebImgSliderSeeder::class);
         $this->call(AdminProgramaSeeder::class);
         $this->call(WebNoticiaSeeder::class);
+        $this->call(WebSectionSeeder::class);
     }
 }

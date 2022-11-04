@@ -1185,6 +1185,9 @@ select {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
+.col-auto {
+  grid-column: auto;
+}
 .m-0 {
   margin: 0px;
 }
@@ -1765,6 +1768,9 @@ select {
 .pt-8 {
   padding-top: 2rem;
 }
+.pb-0 {
+  padding-bottom: 0px;
+}
 .text-left {
   text-align: left;
 }
@@ -1815,6 +1821,9 @@ select {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
 }
 .leading-5 {
   line-height: 1.25rem;
