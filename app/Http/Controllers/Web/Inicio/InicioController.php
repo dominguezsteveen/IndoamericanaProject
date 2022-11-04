@@ -16,6 +16,6 @@ class InicioController extends Controller
         $menus = WebMenu::where('padre_id',1)->orWhere('padre_id', null)->get();
         $imgs_slider = WebImgSlider::where('show', true)->where('position','!=', null)->take(5)->orderBy('position', 'asc')->get();
         $programs = AdminPrograma::where('show', true)->where('orden', '!=', null)->orderBy('orden','asc')->get();
-        return view('web.welcome', compact('menus', 'imgs_slider', 'programs'));
+        return view('web.web-index', compact('menus', 'imgs_slider', 'programs'));
     }
 }
