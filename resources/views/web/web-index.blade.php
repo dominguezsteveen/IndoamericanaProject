@@ -65,26 +65,27 @@
     <!-- Content
         ============================================= -->
     <section id="content" class="container clearfix">
-        <ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
-            @foreach ($programs as $program)
-                <li class="grid-item">
-                    <div class="">
-                        <div class="programa-titulo">
-                            {{ $program->titulo }}
+        <div class="entry clearfix">
+            <ul class="testimonials-grid grid-1 grid-md-2 grid-lg-3">
+                @foreach ($programs as $program)
+                    <li class="grid-item">
+                        <div class="">
+                            <div class="programa-titulo">
+                                {{ $program->titulo }}
+                            </div>
+                            <div class="programa-img">
+                                <a href="web/programas-academicos/{{ $program->urlRedirect }}"><img
+                                        src="{{ $program->img }}" alt="img_post"></a>
+                            </div>
+                            <div class="programa-content">
+                                <p>{{ $program->descripcion }}</p>
+                            </div>
                         </div>
-                        <div class="programa-img">
-                            <a href="web/programas-academicos/{{ $program->urlRedirect }}"><img
-                                    src="{{ $program->img }}" alt="img_post"></a>
-                        </div>
-                        <div class="programa-content">
-                            <p>{{ $program->descripcion }}</p>
-                        </div>
-                    </div>
-                </li>
-            @endforeach
-        </ul>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
     </section>
-    <div class="line"></div>
     @foreach ($sections as $section)
         <section id="content" class="container clearfix">
 
@@ -109,12 +110,11 @@
                 <!-- Entry Content
                 ============================================= -->
                 <div class="entry-content mt-0">
-                        {!! $section->content !!}
+                    {!! $section->content !!}
                 </div><!-- .entry end -->
 
             </div><!-- .postcontent end -->
         </section>
-        <div class="line"></div>
     @endforeach
     <!-- #content end -->
 
