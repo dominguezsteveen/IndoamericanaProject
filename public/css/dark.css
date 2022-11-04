@@ -1336,7 +1336,7 @@ body #side-panel.dark {
 
 .dark .sm-form-control {
 	color: #EEE;
-	background-color: rgba(0,0,0,0.3);
+	background-color: #172E42;
 }
 
 .dark .sm-form-control:not(.error) {
@@ -1464,7 +1464,7 @@ body #side-panel.dark {
 .dark #footer,
 #footer.dark {
 	color: rgba(255,255,255,0.75);
-	background-color: #282828;
+	background-color: #172E42;
 	border-top-color: rgba(255,255,255,0.15);
 }
 
@@ -1484,7 +1484,7 @@ body #side-panel.dark {
 .dark #copyrights,
 #copyrights.dark {
 	color: rgba(255,255,255,0.4);
-	background-color: rgba(0,0,0,0.2);
+	background-color: #172E42;
 }
 
 .dark .copyright-links a {
@@ -1743,7 +1743,7 @@ body #side-panel.dark {
 .dark .sm-form-control:not(.not-dark),
 .dark .form-select:not(.not-dark) {
 	color: #999;
-	background-color: rgba(0,0,0,0.2);
+	background-color: #172E42;
 	border-color: rgba(255,255,255,0.15);
 }
 
@@ -1760,7 +1760,7 @@ body #side-panel.dark {
 .dark .sm-form-control:not(.not-dark):focus,
 .dark .form-select:not(.not-dark):active,
 .dark .form-select:not(.not-dark):focus {
-	background-color: rgba(0,0,0,0.3);
+	background-color: #172E42;
 	border-color: rgba(255,255,255,0.25) !important;
 }
 
@@ -1809,7 +1809,7 @@ body #side-panel.dark {
 
 .dark .input-group-text {
 	color: #999;
-	background-color: rgba(0,0,0,0.25);
+	background-color: #172E42;
 	border-color: rgba(255,255,255,0.15);
 }
 
