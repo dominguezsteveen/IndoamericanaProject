@@ -150,7 +150,7 @@
                                 name="quick-contact-form-botcheck" value="" />
                             <input type="hidden" name="prefix" value="quick-contact-form-">
                             <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit"
-                                class="btn btn-danger m-0" value="submit">Send Email</button>
+                                class="btn btn-primary m-0" value="submit">Send Email</button>
 
                         </form>
 
