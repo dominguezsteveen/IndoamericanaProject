@@ -84,6 +84,6 @@
             @endforeach
         </ul>
     </section><!-- #content end -->
-
     <div class="line"></div>
+    
 </x-app-layout>

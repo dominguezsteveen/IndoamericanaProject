@@ -164,11 +164,11 @@
                     ============================================= -->
                         <div id="logo" class="w-full">
                             <a href="/" class="standard-logo"
-                                data-dark-logo="images/web/inicio/logo_header/trainer-y-indo-1.png"><img
-                                    src="images/web/inicio/logo_header/trainer-y-indo-1.png" alt="Indo Logo"></a>
+                                data-dark-logo="images/web/inicio/logo_header/trainer-y-indo-1.webp"><img
+                                    src="images/web/inicio/logo_header/trainer-y-indo-1.webp" alt="Indo Logo"></a>
                             <a href="/" class="retina-logo"
-                                data-dark-logo="images/web/inicio/logo_header/trainer-y-indo-1.png"><img
-                                    src="images/web/inicio/logo_header/trainer-y-indo-1.png" alt="Indo Logo"></a>
+                                data-dark-logo="images/web/inicio/logo_header/trainer-y-indo-1.webp"><img
+                                    src="images/web/inicio/logo_header/trainer-y-indo-1.webp" alt="Indo Logo"></a>
                         </div><!-- #logo end -->
 
                     </div>
