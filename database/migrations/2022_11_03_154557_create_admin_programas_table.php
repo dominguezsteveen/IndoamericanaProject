@@ -23,6 +23,7 @@ return new class extends Migration
             $table->longText('descripcion');
             $table->integer('orden')->nullable();
             $table->boolean('show')->default(true);
+            $table->boolean('show_tab')->default(true);
             $table->timestamps();
         });
     }

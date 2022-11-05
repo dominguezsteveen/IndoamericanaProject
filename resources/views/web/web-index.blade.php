@@ -74,8 +74,8 @@
                                 {{ $program->titulo }}
                             </div>
                             <div class="programa-img">
-                                <a href="web/{{ $program->urlRedirect }}"><img
-                                        src="{{ $program->img }}-inicio.webp" alt="img_post"></a>
+                                <a href="web/{{ $program->urlRedirect }}"><img src="{{ $program->img }}-inicio.webp"
+                                        alt="img_post"></a>
                             </div>
                             <div class="programa-content">
                                 <p>{{ $program->descripcion }}</p>
@@ -125,11 +125,14 @@
                     $count = 0;
                 @endphp
                 @foreach ($programs as $program)
-                    <li ><a href="#tab-responsive-{{ $count }}"
-                            style="text-transform: uppercase; background-color: #1E3F59; color: white">{{ $program->titulo }}</a></li>
-                    @php
-                        $count++;
-                    @endphp
+                    @if ($program->show_tab)
+                        <li><a href="#tab-responsive-{{ $count }}"
+                                style="text-transform: uppercase; background-color: #1E3F59; color: white">{{ $program->titulo }}</a>
+                        </li>
+                        @php
+                            $count++;
+                        @endphp
+                    @endif
                 @endforeach
             </ul>
 
@@ -138,21 +141,24 @@
                     $count = 0;
                 @endphp
                 @foreach ($programs as $program)
-                    <div class="tab-content clearfix" id="tab-responsive-{{ $count }}" style="background-color: #1E3F59; padding: 3%; color: white">
-                        <div style="text-align: center; font-style: italic;">
-                            <h2 style=" color: #FEFF00; margin-bottom: 2px">{{$program->titulo}}</h2>
-                            <h6 style=" color: white">{{$program->meta_titulo}}</h6>
-                        </div>
-                        <div style="width: 100%;">
-                            <div style="width: 40%;float: left; position: relative; margin-left: 3%">
-                                <img src="{{ $program->img }}-tab.webp" alt="imagen - {{ $program->titulo }}">
+                    @if ($program->show_tab)
+                        <div class="tab-content clearfix" id="tab-responsive-{{ $count }}"
+                            style="background-color: #1E3F59; padding: 3%; color: white">
+                            <div style="text-align: center; font-style: italic;">
+                                <h2 style=" color: #FEFF00; margin-bottom: 2px">{{ $program->titulo }}</h2>
+                                <h6 style=" color: white">{{ $program->meta_titulo }}</h6>
                             </div>
-                            <div style="width: 55%; float: right; position: relative;">
+                            <div style="width: 100%;">
+                                <div style="width: 40%;float: left; position: relative; margin-left: 1%">
+                                    <img src="{{ $program->img }}-tab.webp" alt="imagen - {{ $program->titulo }}">
+                                </div>
+                                <div style="width: 55%; float: right; position: relative;">
 
-                                {!! $program->content !!}
+                                    {!! $program->content !!}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    @endif
                     @php
                         $count++;
                     @endphp

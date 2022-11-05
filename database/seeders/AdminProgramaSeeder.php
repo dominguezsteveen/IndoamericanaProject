@@ -119,6 +119,7 @@ class AdminProgramaSeeder extends Seeder
         $program->urlRedirect = Str::slug($program->titulo);
         $program->descripcion = "Somos el centro  latinoamericano certificado para la formación aeronáutica, nuestras lineas de formación se basan en diplomados, especializaciones, adiciones, cursos, formación intermodal, entrenamiento trainer plus, seminarios y certificaciones bajo el reglamento aeronáutico";
         $program->orden = 6;
+        $program->show_tab = false;
         $program->save();
     }
 }
