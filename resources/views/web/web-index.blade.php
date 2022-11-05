@@ -116,6 +116,52 @@
             </div><!-- .postcontent end -->
         </section>
     @endforeach
+
+    <section id="content" class="container clearfix">
+        <div class="tabs tabs-responsive clearfix">
+
+            <ul class="tab-nav clearfix">
+                @php
+                    $count = 0;
+                @endphp
+                @foreach ($programs as $program)
+                    <li ><a href="#tab-responsive-{{ $count }}"
+                            style="text-transform: uppercase; background-color: #1E3F59; color: white">{{ $program->titulo }}</a></li>
+                    @php
+                        $count++;
+                    @endphp
+                @endforeach
+            </ul>
+
+            <div class="tab-container" style="background-color: #1E3F59;">
+                @php
+                    $count = 0;
+                @endphp
+                @foreach ($programs as $program)
+                    <div class="tab-content clearfix" id="tab-responsive-{{ $count }}" style="background-color: #1E3F59; padding: 3%; color: white">
+                        <div style="text-align: center; font-style: italic;">
+                            <h2 style=" color: #FEFF00; margin-bottom: 2px">{{$program->titulo}}</h2>
+                            <h6 style=" color: white">{{$program->meta_titulo}}</h6>
+                        </div>
+                        <div style="width: 100%;">
+                            <div style="width: 40%;float: left; position: relative; margin-left: 3%">
+                                <img src="{{ $program->img }}" alt="imagen - {{ $program->titulo }}">
+                            </div>
+                            <div style="width: 55%; float: right; position: relative;">
+
+                                {!! $program->content !!}
+                            </div>
+                        </div>
+                    </div>
+                    @php
+                        $count++;
+                    @endphp
+                @endforeach
+            </div>
+
+        </div>
+    </section>
+
     <!-- #content end -->
 
 </x-app-layout>

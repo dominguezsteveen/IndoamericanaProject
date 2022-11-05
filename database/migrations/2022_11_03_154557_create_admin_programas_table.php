@@ -16,8 +16,10 @@ return new class extends Migration
         Schema::create('admin_programas', function (Blueprint $table) {
             $table->id();
             $table->string('titulo')->unique();
+            $table->string('meta_titulo')->nullable();
             $table->string('img');
             $table->string('urlRedirect')->unique();
+            $table->longText('content')->nullable();
             $table->longText('descripcion');
             $table->integer('orden')->nullable();
             $table->boolean('show')->default(true);
