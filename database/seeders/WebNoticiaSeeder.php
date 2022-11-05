@@ -19,7 +19,7 @@ class WebNoticiaSeeder extends Seeder
     {
         $news = new WebNoticia();
         $news->titulo = "Ventajas de estudiar Auxiliar de Vuelo";
-        $news->img = "images/web/noticias/ventajas-auxiliar-vuelo.webp";
+        $news->img = "images/web/noticias/ventajas-auxiliar-vuelo";
         $news->content = "Ya sabes cual es tu sueño y es lo que quieres estudiar.
 
         Pero, ¿conoces las ventajas de ser Auxiliar de Vuelo? si no te las han contado, esta información es para ti. 
@@ -41,7 +41,7 @@ class WebNoticiaSeeder extends Seeder
 
         $news = new WebNoticia();
         $news->titulo = "Todo lo que necesitas saber sobre tu proceso de matrícula en 4 sencillos pasos";
-        $news->img = "images/web/noticias/todo-sobre-proceso-matricula.webp";
+        $news->img = "images/web/noticias/todo-sobre-proceso-matricula";
         $news->content = "Es muy importante para nosotros brindarte las herramientas necesarias para que puedas agilizar el proceso de convertirte en nuevo miembro de la familia Indoamericana. Conoce cómo puedes legalizar tu matrícula a continuación:
 
         Dirígete a www.indoamericana.co e ingresa con el usuario y contraseña que llegó a tu correo electrónico. En caso de no contar con esta información, comunícate con el Departamento Comercial para recibir asesoría.

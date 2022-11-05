@@ -18,7 +18,7 @@ class WebSectionSeeder extends Seeder
     {
         $section = new WebSection();
         $section->titulo = "ATENCIÓN COMUNIDAD";
-        $section->img = "images/web/inicio/sections/incribete.webp";
+        $section->img = "images/web/inicio/sections/incribete";
         $section->urlRedirect = "formulario-online";
         $section->content = '<p><em><strong>Bogot&aacute; D.C, 05 de mayo de 2022</strong></em></p>
 
@@ -49,7 +49,7 @@ class WebSectionSeeder extends Seeder
         $section = new WebSection();
         $section->titulo = "¿POR QUÉ ESTUDIAR AVIACIÓN
 EN LA CORPORACIÓN EDUCATIVA INDOAMERICANA?";
-        $section->img = "images/web/inicio/sections/logo.webp";
+        $section->img = "images/web/inicio/sections/logo";
         $section->urlRedirect = "formulario-online";
         $section->content = '<p><em>Escuela aeron&aacute;utica No. 1 con m&aacute;s de 35 a&ntilde;os de experiencia formando l&iacute;deres aeron&aacute;uticos, contamos con la mayor cantidad de programas acad&eacute;micos enfocados en la capacitaci&oacute;n de los profesionales de la aviaci&oacute;n, mediante el enfoque de formaci&oacute;n integral paralela a la instrucci&oacute;n, que les permita desempe&ntilde;arse laboralmente de forma id&oacute;nea, eficaz y eficiente a nivel Nacional e Internacional. Estamos ubicados en la ciudad de Bogot&aacute;, somos la &uacute;nica escuela de Colombia catalogada como Centro de Excelencia por la Organizaci&oacute;n de Aviaci&oacute;n Civil Internacional (OACI), en el programa&nbsp;<strong>TRAINAIR PLUS.</strong></em></p>
         ';

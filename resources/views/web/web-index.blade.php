@@ -55,7 +55,7 @@
             <div class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-pagi="false" data-loop="true"
                 data-animate-in="slideInRight" data-speed="450" data-animate-out="slideOutLeft" data-autoplay="5000">
                 @foreach ($imgs_slider as $img)
-                    <a href="#"><img src="{{ $img->urlImg }}" alt="Slider" style="object-fit: cover"></a>
+                    <a href="#"><img src="{{ $img->urlImg }}.webp" alt="Slider" style="object-fit: cover"></a>
                 @endforeach
             </div>
 
@@ -74,8 +74,8 @@
                                 {{ $program->titulo }}
                             </div>
                             <div class="programa-img">
-                                <a href="web/programas-academicos/{{ $program->urlRedirect }}"><img
-                                        src="{{ $program->img }}" alt="img_post"></a>
+                                <a href="web/{{ $program->urlRedirect }}"><img
+                                        src="{{ $program->img }}-inicio.webp" alt="img_post"></a>
                             </div>
                             <div class="programa-content">
                                 <p>{{ $program->descripcion }}</p>
@@ -96,7 +96,7 @@
                 <!-- Entry Image
                 ============================================= -->
                 <div class="entry-image">
-                    <a href="{{ $section->urlRedirect }}"><img src="{{ $section->img }}"
+                    <a href="{{ $section->urlRedirect }}"><img src="{{ $section->img }}.webp"
                             alt="{{ $section->urlRedirect }}" style="margin: auto"></a>
                 </div><!-- .entry-image end -->
 
@@ -145,7 +145,7 @@
                         </div>
                         <div style="width: 100%;">
                             <div style="width: 40%;float: left; position: relative; margin-left: 3%">
-                                <img src="{{ $program->img }}" alt="imagen - {{ $program->titulo }}">
+                                <img src="{{ $program->img }}-tab.webp" alt="imagen - {{ $program->titulo }}">
                             </div>
                             <div style="width: 55%; float: right; position: relative;">
 
