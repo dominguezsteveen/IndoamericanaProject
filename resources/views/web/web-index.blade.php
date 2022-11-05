@@ -87,37 +87,92 @@
         </div>
     </section>
     @foreach ($sections as $section)
-        <section id="content" class="container clearfix">
+        @if ($section->tipo == 'simple')
+            <section id="content" class="container clearfix">
 
-            <!-- Single Post
-            ============================================= -->
-            <div class="entry clearfix">
-
-                <!-- Entry Image
+                <!-- Single Post
                 ============================================= -->
-                <div class="entry-image">
-                    <a href="{{ $section->urlRedirect }}"><img src="{{ $section->img }}.webp"
-                            alt="{{ $section->urlRedirect }}" style="margin: auto"></a>
-                </div><!-- .entry-image end -->
+                <div class="entry clearfix">
 
-                <!-- Entry Title
+                    <!-- Entry Image
+                    ============================================= -->
+                    <div class="entry-image">
+                        <a href="{{ $section->urlRedirect }}"><img src="{{ $section->img }}.webp"
+                                alt="{{ $section->urlRedirect }}" style="margin: auto"></a>
+                    </div><!-- .entry-image end -->
+
+                    <!-- Entry Title
+                    ============================================= -->
+                    <div class="entry-title">
+                        <h1 style="text-align: center; color: #1C4360; font-style: italic">{{ $section->titulo }}</h1>
+                    </div><!-- .entry-title end -->
+
+
+                    <!-- Entry Content
+                    ============================================= -->
+                    <div class="entry-content mt-0">
+                        {!! $section->content !!}
+                    </div><!-- .entry end -->
+
+                </div><!-- .postcontent end -->
+            </section>
+        @elseif ($section->tipo == 'simple-btn')
+            <section id="content" class="container clearfix">
+
+                <!-- Single Post
                 ============================================= -->
-                <div class="entry-title">
-                    <h1 style="text-align: center; color: #1C4360; font-style: italic">{{ $section->titulo }}</h1>
-                </div><!-- .entry-title end -->
+                <div class="entry clearfix">
+
+                    <!-- Entry Image
+                    ============================================= -->
+                    <div class="entry-image">
+                        <a href="{{ $section->urlRedirect }}"><img src="{{ $section->img }}.webp"
+                                alt="{{ $section->urlRedirect }}" style="margin: auto"></a>
+                    </div><!-- .entry-image end -->
+
+                    <!-- Entry Title
+                    ============================================= -->
+                    <div class="entry-title">
+                        <h1 style="text-align: center; color: #1C4360; font-style: italic">{{ $section->titulo }}</h1>
+                    </div><!-- .entry-title end -->
 
 
-                <!-- Entry Content
-                ============================================= -->
-                <div class="entry-content mt-0">
-                    {!! $section->content !!}
-                </div><!-- .entry end -->
+                    <!-- Entry Content
+                    ============================================= -->
+                    <div class="entry-content mt-0">
+                        {!! $section->content !!}
+                    </div><!-- .entry end -->
 
-            </div><!-- .postcontent end -->
-        </section>
+                    <div style="text-align: center">
+                        <a href="#"
+                            class="button button-3d button-rounded button-blue">{{ $section->btn_text }}</a>
+                    </div>
+
+                </div><!-- .postcontent end -->
+            </section>
+        @elseif ($section->tipo == 'columnas-btn')
+            <section id="content" class="container clearfix" style="margin-bottom: 2%">
+                <div class="entry clearfix">
+                    <div style="width: 100%;">
+                        <div style="width: 40%;float: left; position: relative; margin-left: 1%">
+                            <img src="{{ $section->img }}.webp" alt="imagen - {{ $section->titulo }}">
+                        </div>
+                        <div style="width: 55%; float: right; position: relative;">
+                            <h2 style="text-align: center; color: #1C4360; font-style: italic">{{ $section->titulo }}
+                            </h2>
+                            {!! $section->content !!}
+                            <div style="text-align: center">
+                                <a href="#"
+                                    class="button button-3d button-rounded button-blue">{{ $section->btn_text }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        @endif
     @endforeach
 
-    <section id="content" class="container clearfix">
+    <section id="content" class="container entry clearfix">
         <div class="tabs tabs-responsive clearfix">
 
             <ul class="tab-nav clearfix">

@@ -15,13 +15,16 @@ return new class extends Migration
     {
         Schema::create('web_sections', function (Blueprint $table) {
             $table->id();
+            $table->string('tipo')->default('simple');
             $table->string('titulo');
             $table->string('img');
             $table->string('urlRedirect')->nullable();
             $table->longText('content');
             $table->boolean('show')->default(true);
+            $table->integer('position')->nullable();
             $table->date('fecha_public');
             $table->date('fecha_vigencia');
+            $table->string('btn_text')->nullable();
             $table->timestamps();
         });
     }

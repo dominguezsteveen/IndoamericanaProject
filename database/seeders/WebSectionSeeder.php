@@ -47,6 +47,7 @@ class WebSectionSeeder extends Seeder
         $section->save();
 
         $section = new WebSection();
+        $section->tipo = "simple-btn";
         $section->titulo = "¿POR QUÉ ESTUDIAR AVIACIÓN
 EN LA CORPORACIÓN EDUCATIVA INDOAMERICANA?";
         $section->img = "images/web/inicio/sections/logo";
@@ -56,6 +57,23 @@ EN LA CORPORACIÓN EDUCATIVA INDOAMERICANA?";
 
         $section->fecha_public = now();
         $section->fecha_vigencia = Carbon::parse('2022-12-31');
+        $section->btn_text = "Incríbete";
+        $section->save();
+
+        $section = new WebSection();
+        $section->tipo = "columnas-btn";
+        $section->titulo = 'Curso “Piloto de Aeronaves
+        no Tripuladas – RPAS”';
+        $section->img = "images/web/inicio/sections/dron-redes-1";
+        $section->urlRedirect = "https://wa.link/13ag0c";
+        $section->content = '<p><em>La formaci&oacute;n brindar&aacute; las competencias acad&eacute;micas necesarias y los requisitos, condiciones y dem&aacute;
+        s aspectos relativos a la&nbsp;<strong>operaci&oacute;n y certificaci&oacute;n de las aeronaves pilotadas a distancia &ndash; RPAS</strong>&nbsp;y, en general,
+         a los sistemas de aeronaves no tripuladas &ndash; UAS, descritos en el Ap&eacute;ndice 13 &ndash; &ldquo;Operaci&oacute;n de sistemas de aeronaves no tripuladas
+          UAS&rdquo;</em></p>';
+
+        $section->fecha_public = now();
+        $section->fecha_vigencia = Carbon::parse('2022-12-31');
+        $section->btn_text = "Información directa - WhatsApp";
         $section->save();
     }
 }
