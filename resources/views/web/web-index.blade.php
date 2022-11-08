@@ -36,6 +36,7 @@
             </ul>
         </div>
     </section>
+    
     @foreach ($sections as $section)
         @if ($section->tipo == 'simple')
             <section id="content" class="container clearfix">
