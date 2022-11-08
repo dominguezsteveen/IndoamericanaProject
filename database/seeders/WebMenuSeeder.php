@@ -68,36 +68,43 @@ class WebMenuSeeder extends Seeder
 
         $menu = new WebMenu();
         $menu->titulo = "Piloto Comercial de Avión (PCA)";
+        $menu->url_redirect = "/programas-academicos/piloto-de-avion";
         $menu->padre_id = 10;
         $menu->save();
 
         $menu = new WebMenu();
         $menu->titulo = "Auxiliar de Servicio a Bordo (ASA-TCP)";
+        $menu->url_redirect = "/programas-academicos/auxiliar-de-servicios-abordo-y-aeroportuarios-asa";
         $menu->padre_id = 10;
         $menu->save();
 
         $menu = new WebMenu();
         $menu->titulo = "Despachador de Vuelo (DPA)";
+        $menu->url_redirect = "/programas-academicos/despacho-de-aeronaves-dpa";
         $menu->padre_id = 10;
         $menu->save();
 
         $menu = new WebMenu();
         $menu->titulo = "Técnico de Línea de Aviones (TLA)";
+        $menu->url_redirect = "/programas-academicos/tecnico-en-linea-de-aviones-tla";
         $menu->padre_id = 10;
         $menu->save();
 
         $menu = new WebMenu();
         $menu->titulo = "Técnico de Línea de Helicópteros (TLH)";
+        $menu->url_redirect = "/programas-academicos/tecnico-en-linea-de-helicopteros-tlh";
         $menu->padre_id = 10;
         $menu->save();
 
         $menu = new WebMenu();
         $menu->titulo = "Técnico en Turismo y Agencias de Viajes (ATA)";
+        $menu->url_redirect = "/programas-academicos/tecnico-agente-en-turismo-y-agencias-de-viaje";
         $menu->padre_id = 11;
         $menu->save();
 
         $menu = new WebMenu();
         $menu->titulo = "Técnico en Conductor de Transporte de Pasajeros y Carga";
+        $menu->url_redirect = "/programas-academicos/tecnico-laboral-por-competencias-como-conductor-de-transporte-de-pasajeros-y-carga";
         $menu->padre_id = 12;
         $menu->save();
 

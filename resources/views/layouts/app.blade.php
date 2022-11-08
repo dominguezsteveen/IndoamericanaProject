@@ -153,7 +153,6 @@
         </div><!-- #top-bar end -->
 
         <!-- Page Heading -->
-        @if (isset($header))
             <!-- Header
         ============================================= -->
             <header id="header" class="header-size-sm dark">
@@ -199,7 +198,7 @@
                             </div>
                             <!-- Primary Navigation
                             ============================================= -->
-                            {{ $header }}
+                            @livewire('web.web-menu')
 
                             <form class="top-search-form" action="search.html" method="get">
                                 <input type="text" name="q" class="form-control" value=""
@@ -211,7 +210,6 @@
 
                 <div class="header-wrap-clone"></div>
             </header><!-- #header end -->
-        @endif
 
         <!-- Page Content -->
         <main>
